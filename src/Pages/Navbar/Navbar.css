@@ -1,0 +1,32 @@
+.navbar
+{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+    border-radius: 0px 0px 5px 5px;
+    margin: auto;
+    padding: 10px 30px;
+}
+
+.addemp-btn
+{
+    height: 50px;
+    width: 200px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700    ;
+}
+
+.addemp-btn:hover
+{
+    transform: scale(1.02);
+    transition: 0.3s;
+    cursor: pointer;
+}

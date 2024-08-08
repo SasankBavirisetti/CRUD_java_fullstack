@@ -1,0 +1,75 @@
+.create-employee-nav {
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 30px;
+    flex-direction: column;
+    row-gap: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(192, 192, 226);
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.form-input {
+    height: 40px;
+    width: 45%;
+    padding: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid white;
+}
+
+.form-btns
+{
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.form-btn
+{
+    height: 50px;
+    width: 200px;
+    outline: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.add-btn
+{
+    background-color: blue;
+    border: 1px solid blue;
+}
+.cancel-btn
+{
+    background-color: red;
+    border: 1px solid red;
+}
+.form-btn:hover
+{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.3s;
+}
